@@ -9,8 +9,8 @@ Se ha configurado el motor de reglas y se ha activado el conjunto de reglas OWAS
 
 ## Evidencias
 - Dockerfile con la instalación y configuración de ModSecurity.
-![DockerFile del WAF](imagenes/DockerfileWAF.png)
+![DockerFile del WAF](../imagenes/DockerfileWAF.png)
 - Petición maliciosa realizada con curl que es bloqueada por el WAF.
-![Comprobacion WAF](imagenes/CurlWAF.png)
+![Comprobacion WAF](../imagenes/CurlWAF.png)
 ## Conclusión
 La implementación de ModSecurity permite detectar y mitigar ataques web de forma automática, reforzando significativamente la seguridad de la aplicación web.
