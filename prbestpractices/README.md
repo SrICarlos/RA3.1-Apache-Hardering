@@ -8,6 +8,7 @@ Se ha creado una imagen Docker independiente basada en Ubuntu 22.04, donde se in
 ![Imagen DockerFile independiente todo en uno de lo que se ha hecho hasta ahora](../imagenes/DockerBest.png)
 ## Evidencias
 Se han realizado pruebas con curl para comprobar la correcta aplicación de las cabeceras de seguridad y la ocultación de información sensible del servidor.
+
 ![Imagen de comprobacion de cabeceras con curl](../imagenes/CurlBest.png)
 ## Conclusión
 La configuración aplicada reduce la superficie de ataque del servidor Apache y dificulta las tareas de reconocimiento, alineándose con buenas prácticas de seguridad recomendadas.
