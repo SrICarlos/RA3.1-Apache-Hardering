@@ -8,6 +8,6 @@ Se ha utilizado un Dockerfile para instalar y crear la base de apache (la web ba
 
 ## Evidencias
 - Dockerfile con la configuración del servidor Apache.
-![Imagen DockerFile](imagenes/DockerfileBase.png) <img src="../imagenes/DockerfileBase.png">
+![Imagen DockerFile](../imagenes/DockerfileBase.png)
 ## Conclusión
 Esta practica es solo la base del Apache y no es considerada una practica mas, simplemente un base para el resto.
