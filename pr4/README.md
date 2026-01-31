@@ -9,8 +9,8 @@ En esta práctica se ha reforzado la configuración del servidor limitando los m
 
 ## Evidencias
 - Dockerfile con la configuración de métodos HTTP permitidos.
-![DockerFile del OWASP](imagenes/DockerOWASP.png)
+![DockerFile del OWASP](../imagenes/DockerOWASP.png)
 - Prueba mediante curl mostrando el bloqueo de métodos no autorizados.
-![Comprobacion del OWASP](imagenes/CurlOWASP.png)
+![Comprobacion del OWASP](../imagenes/CurlOWASP.png)
 ## Conclusión
 Las medidas aplicadas permiten mitigar riesgos asociados al OWASP Top 10, mejorando el control sobre las peticiones HTTP aceptadas por el servidor.
