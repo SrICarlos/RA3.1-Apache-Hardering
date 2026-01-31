@@ -9,8 +9,8 @@ El módulo bloquea temporalmente a los clientes que superan los umbrales de peti
 
 ## Evidencias
 - Dockerfile con la instalación y configuración de mod_evasive.
-![DockerFile de Mitigacion de DOS](imagenes/DockerDOS.png)
+![DockerFile de Mitigacion de DOS](../imagenes/DockerDOS.png)
 - Registros del servidor mostrando la denegación de peticiones por exceso de solicitudes.
-![Log de Comprobacion de denegacion de exceso de peticiones](imagenes/DOSlog.png)
+![Log de Comprobacion de denegacion de exceso de peticiones](../imagenes/DOSlog.png)
 ## Conclusión
 La implementación de mod_evasive permite reducir el impacto de ataques DoS simples, protegiendo la disponibilidad del servicio web.
