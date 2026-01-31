@@ -10,10 +10,16 @@ Además, se ha ocultado la versión del servidor para evitar la exposición de i
 
 ## Evidencias
 - Dockerfile con la configuración del servidor NGINX.
-![DockerFile del Nginx](imagenes/DockerNginx.png)
+
+![DockerFile del Nginx](../imagenes/DockerNginx.png)
+
 - Archivo de configuracion de NGINX.
-![Archivo de configuracion de NGINX](imagenes/Nginx.png)
+
+![Archivo de configuracion de NGINX](../imagenes/Nginx.png)
+
 - Petición HTTPS realizada con curl mostrando las cabeceras de seguridad configuradas.
-![Curl de comprobacion de NGINX](imagenes/CurlNginx.png)
+
+![Curl de comprobacion de NGINX](../imagenes/CurlNginx.png)
+
 ## Conclusión
 El servidor NGINX configurado cumple con las medidas básicas de seguridad requeridas, proporcionando un servicio web seguro y correctamente endurecido.
