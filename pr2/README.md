@@ -10,8 +10,8 @@ Además, se han deshabilitado funcionalidades innecesarias para evitar la exposi
 
 ## Evidencias
 - Dockerfile con la configuración del servidor Apache.
-![DockerFile del CSP](imagenes/DockerCSP.png)
+![DockerFile del CSP](../imagenes/DockerCSP.png)
 - Comprobación del funcionamiento mediante una petición HTTPS con curl.
-![Comprobacion del CSP](imagenes/CurlCSP.png)
+![Comprobacion del CSP](../imagenes/CurlCSP.png)
 ## Conclusión
 Con esta práctica se ha conseguido desplegar un servidor Apache más seguro, aplicando medidas básicas de hardening que protegen frente a ataques comunes y mejoran la confidencialidad de las comunicaciones.
