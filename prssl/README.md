@@ -14,11 +14,17 @@ La solución se ha implementado mediante un nuevo Dockerfile que hereda de la im
 
 ## Evidencias
 - Dockerfile con la configuración de redirección HTTP a HTTPS en Apache.
-![DockerFile para hacer la redireccion](imagenes/DockerCert.png)
+  
+![DockerFile para hacer la redireccion](../imagenes/DockerCert.png)
+
 - Archivo de redireccion para aplicar en el Dockerfile
-![Archivo para copiarse en el Dockerfile del redirect](imagenes/Redirect.png)
+
+![Archivo para copiarse en el Dockerfile del redirect](../imagenes/Redirect.png)
+
 - Prueba realizada con curl mostrando la redirección automática desde HTTP hacia HTTPS.
-![Comprobacion de redireccion de http a https](imagenes/CurlCert.png)
+
+![Comprobacion de redireccion de http a https](../imagenes/CurlCert.png)
+
 ## Conclusión
 Con esta práctica se ha conseguido asegurar las comunicaciones del servidor web mediante el uso de HTTPS, evitando accesos no cifrados. La redirección automática garantiza que cualquier intento de acceso por HTTP sea redirigido a una conexión segura, mejorando la confidencialidad e integridad de los datos transmitidos.  
 Se destaca que los certificados utilizados son autofirmados, válidos para entornos de prueba y aprendizaje, siendo necesario el uso de certificados emitidos por una Autoridad de Certificación en entornos de producción.
